@@ -15,4 +15,4 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 // Get Config based on default or local
-export const config = require('../../../config/default.json')
+export const config = require('../../../../config/default.json')
