@@ -21,7 +21,7 @@ In order to use the new Default theme in your [ADempiere Vue](https://github.com
    yarn global add lerna
    ```
 
-1. Configure `ADvue-Default-Theme` repository as a git submodule in theme path of your Vue Storefront workspace, and then track `develop` branch:
+1. Configure `ADvue-Default-Theme` repository as a git submodule in theme path of your [ADempiere Vue](https://github.com/adempiere/adempiere-vue) workspace, and then track `develop` branch:
 
    ```
    git submodule add -b develop git@github.com:elsiosanchez/ADvue-Default-Theme.git themes/default
@@ -36,7 +36,7 @@ In order to use the new Default theme in your [ADempiere Vue](https://github.com
    ```
    node src/themes/default/scripts/generate-local-config.js
    ```
-1. Update Vue Storefront configuration by copying `local.json` file from `src/themes/capybara` to root `config` directory.
+1. Update [ADempiere Vue](https://github.com/adempiere/adempiere-vue) configuration by copying `local.json` file from `src/themes/default` to root `config` directory.
 
 1. Download all dependencies and start development server:
 
